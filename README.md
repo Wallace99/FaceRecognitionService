@@ -9,7 +9,7 @@ _/numFaces_ - GET request which will return the number of faces detected in the 
 <br />
 
 **How to use**
-- Docker: `docker build -t facedetection .` and then `docker run -p 8080:8080 facedetection:latest`
+- Docker: `docker build -t facedetection .` and then `docker run -p 8082:8080 facedetection:latest`
 - Within IDE: run Application main
 
 Make post request to `http://localhost:8080/faces/upload` with an image as the body, then make a get request to `http://localhost:8080/faces/numFaces`
